@@ -3,8 +3,23 @@ img {
     width: 100%;
 }
 
+body {
+    background-color: #FFFFE8;
+}
 
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Helvetica;
 
+}
+header h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: Helvetica;
+    font-weight: lighter;
+
+}
 
 /* FORSIDE */
 
@@ -28,13 +43,21 @@ img {
     flex-wrap: wrap;
 }
 
+/* FORSIDE FONT */
+
 #forside h3 {
     font-size: 1.5em;
+    font-family: Helvetica;
+    text-align: center;
 }
 
 #forside p {
-    font-size: 1.1em
+    font-size: 1.1em;
+    font-family: Helvetica;
+
 }
+
+/* FORSIDE VIDEO */
 
 .video iframe {
     position: absolute;
