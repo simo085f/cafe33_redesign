@@ -1,0 +1,22 @@
+/* GENERELLE INSTILLINGER */
+img {
+    width: 100%;
+}
+
+
+/* FORSIDE */
+
+#forside .sectionwrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside .column {
+    background-color: aqua;
+
+}
+
+#forside .img {
+    display: flex;
+    flex-wrap: wrap;
+}
