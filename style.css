@@ -8,20 +8,29 @@ body {
     background-color: #FFFFE8;
 }
 
-header h1 {
-    text-align: center;
+h1 {
     font-size: 2.5em;
     font-family: Helvetica;
 
 }
 
-header h2 {
-    text-align: center;
+h2 {
     font-size: 1em;
     font-family: Helvetica;
-    font-weight: lighter;
 
 }
+
+h3 {
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: Helvetica;
+}
+
+
 
 /* FORSIDE */
 
@@ -32,7 +41,7 @@ header h2 {
 }
 
 #forside .column {
-    background-color: aqua;
+    background-color: #8F3C0C;
     flex-basis: 400px;
     flex-grow: 1;
     margin: 1em;
@@ -54,11 +63,6 @@ header h2 {
     text-align: center;
 }
 
-#forside p {
-    font-size: 1.1em;
-    font-family: Helvetica;
-
-}
 
 /* FORSIDE VIDEO */
 
@@ -74,6 +78,8 @@ header h2 {
     padding-top: 25px;
 
 }
+
+/* FORSIDE SLUT*/
 
 
 /*nav*/
